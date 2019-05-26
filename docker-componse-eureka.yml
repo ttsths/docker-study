@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  eureka-ms:
+    build: .
+    container_name: eureka-ms
+    ports:
+      - "8040:8040"
+    environment:
+      - JVM_OPTS=-Xmx512m -Xms256m -Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+HeapDumpOnOutOfMemoryError
+    networks:
+      common:
+        ipv4_address: 172.33.0.4
+    restart: always
