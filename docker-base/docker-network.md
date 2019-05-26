@@ -1,13 +1,3 @@
----
-layout: post
-title: docker-network
-date: 2019-05-25 15:51:26
-categories: Devops
-tags: [Docker]
-copyright: true
-summary_img: /images/devops/Docker.png
----
-
 # Docker网络学习
 
 ## Docker网络容器概述
@@ -115,9 +105,7 @@ overlay网络可以跨越多个Docker Engine的多个主机，但是`overlay`的
 - docker network disconnect
 - docker network inspect
 
-## 原文
 
-[http://www.itmuch.com/docker/16-docker-network-command/]([http://www.itmuch.com/docker/16-docker-network-command/](http://www.itmuch.com/docker/16-docker-network-command/))
 
 
 
